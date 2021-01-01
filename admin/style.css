@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: #343a40 ;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.header-left{
+    padding: 15px 0 0 40px;
+    flex-grow: 1;
+}
+.header-right{
+    margin: 10px 20px 0 700px;
+    flex-grow: 10;
+    float: right;
+}
+.form-control{
+    height: 30px;
+    width: 200px;   
+}
+.btn-search{
+    height: 36px;
+    width: 50px;
+    margin: -10px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+  
+}
+.wrapper-menu{
+    flex-grow: 1;
+    background-color: #212529;
+    line-height: 45px;
+    width: 13%;
+   
+}
+.wrapper-menu ul li{
+    list-style: none;
+}
+.wrapper-menu ul {
+    padding: 20px;
+    margin: 0;
+}
+.wrapper-menu ul li a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 17px;
+}
+.wrapper-content{
+    flex-grow: 8;
+    width: 87%;
+}
+
+.content-title{
+    height: 50px;
+    background-color: #e9ecef;
+    margin: 10px 0 0 20px;
+    border: solid 0.1px #e9ecef ;
+}
+.content-title ol li {
+   list-style: none;
+}
+
+.content-title ol li a{
+    text-decoration: none;
+    float: left;
+    color: turquoise;
+}
+.content-table{
+    margin: 20px 0 0 20px;
+    border: solid 0.1px #e9ecef ;
+}
+.table{
+    margin-left: 20px;
+}
+.ol{
+    margin-left: -20px;
+}
+.table-title{
+    height: 50px;
+    background-color: #e9ecef;
+    margin: 0 0 40px 0px;
+}
+.content-table table thead tr th {
+    background-color: turquoise;
+    border-bottom: solid 3px grey ;
+    height: 50px;
+    width: 100px;
+}
+.content-table table tbody tr td {
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+table, th, td {
+    border: solid 1px grey ;
+}
+table {
+    border-collapse:collapse;
+}
+.list{
+    padding-top: 18px;
+    margin-left: 20px;
+}
+.active{
+    color: white !important;
+}
+.footer{
+    display: flex;
+    width: 100%;
+}
+.footer-left{
+    flex-grow: 1;
+    width: 13%;
+    background-color: #212529;
+ 
+}
+.footer-right{
+    flex-grow: 4;
+    text-align: center;
+    width: 87%;
+}
